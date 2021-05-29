@@ -33,7 +33,7 @@ body *{
 h1, h2, h3, h4, h5, h6, strong{
 	color: var(--mainText);
 	font-family: 'Courier New', sans-serif;
-	font-weight: 500;
+	font-weight: 800;
 }
 
 p, li, span, label, input, textarea{
@@ -338,7 +338,7 @@ section#projects {
 
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: var(--previewShadow);
     height: 250vh;
 }
 
@@ -347,6 +347,7 @@ section#projects {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 320px);
 	gap:20px;
+	
 	justify-content: center;
 	padding-bottom: 50px;
 }
@@ -356,6 +357,7 @@ section#projects {
 	-webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 	-moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 	box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+	
 }
 
 .thumbnail{
@@ -366,17 +368,15 @@ section#projects {
 }
 
 .post-preview{
-	background-color: #fff;
+	background-color: var(--previewShadow)f;
 	padding:15px;
 }
 
 .post-title{
-	color:black;
-	margin: 0;
+	margin: 10;
 }
 
 .post-intro{
-	color:#4b5156;
 	font-size: 14px;
 }
 
